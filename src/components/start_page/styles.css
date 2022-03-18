@@ -1,0 +1,35 @@
+.start--page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("/src/images/blue_shape.png")  left bottom no-repeat, url("/src/images/orange_shape.png") right top no-repeat;
+}
+
+.app--title {
+    color: #293264;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.app--description {
+    margin-top: -10px;
+    color: #293264;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.start--button {
+    margin-top: 20px;
+    background-color: #293264;
+    border-radius: 15px;
+    width: 200px;
+    height: 55px;
+    color: #F5F7FB;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    border: 0;
+    cursor: pointer;
+}
